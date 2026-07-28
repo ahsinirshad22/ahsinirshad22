@@ -1,331 +1,197 @@
-# Hi, I'm Ahsin Irshad 👋
-
-**Senior Software Engineer building full-stack business systems, cross-platform Flutter applications, and practical AI automation.**
-
-I design and deliver production software from architecture and APIs through user interfaces, mobile applications, infrastructure, and deployment. My work focuses on turning operational requirements into maintainable systems that teams and customers can rely on.
-
-<p>
-  <a href="https://ahsinirshad.com/#portfolio"><strong>View Full Portfolio</strong></a> ·
-  <a href="https://ahsinirshad.com/">Website</a> ·
-  <a href="https://www.linkedin.com/in/ahsin-irshad/">LinkedIn</a> ·
-  <a href="mailto:ahsinirshad22@gmail.com">Email</a>
+<p align="center">
+  <img src="assets/profile/header.png" width="100%" alt="Ahsin Irshad — Senior Software Engineer">
 </p>
 
-## What I Build
+<p align="center">
+  I build production software across APIs, business platforms, mobile applications,<br>
+  automation workflows, databases, and self-hosted infrastructure.
+</p>
 
-- **Full-stack business systems** — Python, FastAPI, SQLModel, Laravel, Vue 3, Tailwind CSS, and Vite
-- **Cross-platform mobile applications** — Flutter applications across Android and iOS, backed by 27+ released apps
-- **AI agents and workflow automation** — practical integrations using coding agents, n8n, Zapier, APIs, and purpose-built automation
-- **Production infrastructure** — Docker, Coolify, Traefik, Harbor, Proxmox VE, Jenkins, and self-hosted services
-- **Data-driven applications** — PostgreSQL, MySQL, MariaDB, MongoDB, Firebase, Supabase, and Airtable
+<p align="center">
+  <a href="https://ahsinirshad.com/"><img src="https://img.shields.io/badge/Portfolio-ahsinirshad.com-0891b2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/ahsin-irshad/"><img src="https://img.shields.io/badge/LinkedIn-Ahsin_Irshad-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:ahsinirshad22@gmail.com"><img src="https://img.shields.io/badge/Email-Let's_Talk-7c3aed?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
 
-## Featured Work
+<p align="center">
+  <a href="#automation">Automation</a> •
+  <a href="#web-development">Web Development</a> •
+  <a href="#mobile-apps">Mobile Apps</a> •
+  <a href="#technologies">Technologies</a> •
+  <a href="#connect">Connect</a>
+</p>
+
+---
+
+### What I Build
+
+- **Business platforms and SaaS** — APIs, operational workflows, dashboards, subscriptions, and multi-client systems
+- **AI and workflow automation** — n8n pipelines, content operations, integrations, backups, and deployment automation
+- **Web and mobile products** — Vue, FastAPI, Laravel, and Flutter applications backed by production infrastructure
+- **End-to-end delivery** — Docker, CI/CD, private registries, reverse proxies, and self-hosted services
+
+<a id="automation"></a>
+## ⚙️ Recent Automation Projects
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top">
-  <a href="https://apps.apple.com/us/app/safemom-ingredient-checker/id6746147849"><img src="assets/portfolio/safe_mom.png" width="150" alt="SafeMom"></a><br>
-  <h3>SafeMom</h3>
-  <p>AI-powered ingredient safety analysis for cosmetics, food, and medicine, backed by a large ingredient database.</p>
-  <p><sub><a href="https://apps.apple.com/us/app/safemom-ingredient-checker/id6746147849">App Store</a> · <a href="https://play.google.com/store/apps/details?id=net.magnificentservices.safe_mom">Google Play</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub></p>
+<td width="50%" valign="top">
+  <h3>Article Generation & Publishing</h3>
+  <p>AI-assisted workflow that turns approved topics into structured articles, applies formatting and content checks, and publishes them to configured channels with minimal manual handling.</p>
+  <p><code>AI Content</code> <code>n8n</code> <code>Publishing APIs</code></p>
 </td>
-<td width="50%" align="center" valign="top">
-  <a href="https://play.google.com/store/apps/details?id=net.magnificentservies.amigo"><img src="assets/portfolio/amigo.png" width="150" alt="AMIGO"></a><br>
-  <h3>AMIGO</h3>
-  <p>Vehicle care and service-booking platform covering roadside assistance, maintenance, inspections, and parts.</p>
-  <p><sub><a href="https://play.google.com/store/apps/details?id=net.magnificentservies.amigo">Google Play</a> · <a href="https://support.amigoallmotorsireland.com/">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub></p>
+<td width="50%" valign="top">
+  <h3>MySQL Backups to MinIO</h3>
+  <p>Fully self-hosted backup pipeline that schedules MySQL dumps and stores them in MinIO or other S3-compatible storage, keeping infrastructure and data under the operator's control.</p>
+  <p><code>Python</code> <code>FastAPI</code> <code>MySQL</code> <code>MinIO</code></p>
 </td>
 </tr>
 <tr>
-<td width="50%" align="center" valign="top">
-  <a href="https://apps.apple.com/bh/app/mubasher-info/id6472443851"><img src="assets/portfolio/mubasher_info.png" width="150" alt="Mubasher.Info"></a><br>
+<td width="50%" valign="top">
+  <h3>Git-Push Deployment Automation</h3>
+  <p>CI/CD workflow triggered by Git pushes to build versioned containers, publish application images, and deploy projects consistently across environments.</p>
+  <p><code>Git</code> <code>Docker</code> <code>CI/CD</code> <code>Harbor</code> <code>Coolify</code></p>
+</td>
+<td width="50%" valign="top">
+  <h3>YumMeal Recipe Extraction</h3>
+  <p>n8n workflow that extracts recipes from source pages, normalizes ingredients and instructions, and prepares structured content for the YumMeal platform.</p>
+  <p><code>n8n</code> <code>Data Extraction</code> <code>Content Automation</code></p>
+</td>
+</tr>
+</table>
+
+<a id="web-development"></a>
+## 🌐 Recent Web-Based Developments
+
+<table>
+<tr>
+<td width="50%" valign="top">
+  <h3><a href="https://www.heico-group.com/en/">HEICO CRM</a></h3>
+  <p><strong>Enterprise CRM & Workflow Platform</strong></p>
+  <p>Internal CRM and recurring-work platform supporting customer information, task coordination, repeatable workflows, and day-to-day operational visibility.</p>
+</td>
+<td width="50%" valign="top">
+  <h3><a href="https://thecinewizard.com/">TheCineWizard</a></h3>
+  <p><strong>Entertainment Content Platform</strong></p>
+  <p>Responsive platform for movie and television reviews, industry news, curated recommendations, and discovery-focused editorial content.</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <h3><a href="https://cineflicksnews.com/">Cineflicks News</a></h3>
+  <p><strong>Entertainment News Platform</strong></p>
+  <p>Content-focused website for publishing and browsing movie and television stories, reviews, announcements, and industry updates.</p>
+</td>
+<td width="50%" valign="top">
+  <h3><a href="https://support.amigoallmotorsireland.com/">Amigo Support</a></h3>
+  <p><strong>Customer Support Portal</strong></p>
+  <p>Responsive support experience for a vehicle-service platform, combining structured inquiry workflows with manageable help content.</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <h3><a href="https://nailsalon.club/">NailSalon.club</a></h3>
+  <p><strong>Membership & Booking SaaS</strong></p>
+  <p>Members-only salon platform combining appointment booking, Stripe subscriptions, membership management, and service-quota enforcement.</p>
+</td>
+<td width="50%" valign="top">
+  <h3><a href="https://modernnailbarkeller.com/">Modern Nail Bar Keller</a></h3>
+  <p><strong>Salon Website & Booking Experience</strong></p>
+  <p>Responsive salon website presenting services, pricing, galleries, customer reviews, and a streamlined path to online booking.</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <h3><a href="https://eyelashjacksonville.com/">Eyelash Jacksonville</a></h3>
+  <p><strong>Local Service Website</strong></p>
+  <p>Mobile-first salon website with structured services, customer-friendly navigation, appointment inquiries, and a polished local-business presence.</p>
+</td>
+<td width="50%" valign="top">
+  <h3>From Requirement to Production</h3>
+  <p><strong>Full-Stack Delivery</strong></p>
+  <p>Architecture, APIs, interfaces, databases, integrations, deployment, and production verification delivered as one connected system.</p>
+</td>
+</tr>
+</table>
+
+<a id="mobile-apps"></a>
+## 📱 Recent Mobile Application Projects
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+  <a href="https://apps.apple.com/bh/app/mubasher-info/id6472443851"><img src="assets/portfolio/mubasher_info.png" width="96" alt="Mubasher.Info"></a><br>
   <h3>Mubasher.Info</h3>
-  <p>Social trading and market-intelligence platform with analysis, alerts, communities, and stock insights.</p>
-  <p><sub><a href="https://apps.apple.com/bh/app/mubasher-info/id6472443851">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.gfm.tadawuly&amp;hl=en">Google Play</a> · <a href="https://english.mubasher.info/countries/sa">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub></p>
+  <p>Social trading and market intelligence with stock insights, analysis, alerts, and investor communities.</p>
+  <p><sub><a href="https://apps.apple.com/bh/app/mubasher-info/id6472443851">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.gfm.tadawuly&amp;hl=en">Google Play</a></sub></p>
 </td>
-<td width="50%" align="center" valign="top">
-  <a href="https://play.google.com/store/apps/details?id=com.mealsmash.customer"><img src="assets/portfolio/mealsmash.png" width="150" alt="MealSmash"></a><br>
-  <h3>MealSmash</h3>
-  <p>Multi-category ordering and real-time delivery experience for food, groceries, pharmacies, and local vendors.</p>
-  <p><sub><a href="https://play.google.com/store/apps/details?id=com.mealsmash.customer">Google Play</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub></p>
+<td width="33%" align="center" valign="top">
+  <a href="https://apps.apple.com/us/app/safemom-ingredient-checker/id6746147849"><img src="assets/portfolio/safe_mom.png" width="96" alt="SafeMom"></a><br>
+  <h3>SafeMom</h3>
+  <p>AI-powered ingredient analysis for evaluating cosmetics, food, and medicine during pregnancy.</p>
+  <p><sub><a href="https://apps.apple.com/us/app/safemom-ingredient-checker/id6746147849">App Store</a> · <a href="https://play.google.com/store/apps/details?id=net.magnificentservices.safe_mom">Google Play</a></sub></p>
+</td>
+<td width="33%" align="center" valign="top">
+  <a href="https://play.google.com/store/apps/details?id=net.magnificentservies.amigo"><img src="assets/portfolio/amigo.png" width="96" alt="AMIGO"></a><br>
+  <h3>AMIGO</h3>
+  <p>Vehicle-care and service-booking application covering roadside assistance, maintenance, and inspections.</p>
+  <p><sub><a href="https://play.google.com/store/apps/details?id=net.magnificentservies.amigo">Google Play</a></sub></p>
 </td>
 </tr>
 <tr>
-<td width="50%" align="center" valign="top">
-  <a href="https://bellamasala.it/"><img src="assets/portfolio/bella_masala.png" width="150" alt="Bella Masala – Italian Restaurant"></a><br>
-  <h3>Bella Masala – Italian Restaurant</h3>
-  <p>Multilingual restaurant website with AI-assisted menu management and n8n automation.</p>
-  <p><sub><a href="https://bellamasala.it/">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub></p>
+<td width="33%" align="center" valign="top">
+  <a href="https://thermowrap.com.au/"><img src="assets/portfolio/thermowrap.png" width="96" alt="Thermowrap"></a><br>
+  <h3>Thermowrap</h3>
+  <p>Field-workforce application supporting GPS tracking, job coordination, and operational visibility.</p>
+  <p><sub><a href="https://thermowrap.com.au/">Project Website</a></sub></p>
 </td>
-<td width="50%" align="center" valign="top">
-  <a href="https://modernnailbarkeller.com/"><img src="assets/portfolio/modern_nail_barkeller.png" width="150" alt="Modern Nail Bar"></a><br>
-  <h3>Modern Nail Bar</h3>
-  <p>Responsive salon website with service discovery, pricing, galleries, reviews, and online booking.</p>
-  <p><sub><a href="https://modernnailbarkeller.com/">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub></p>
+<td width="33%" align="center" valign="top">
+  <a href="https://play.google.com/store/apps/details?id=com.paybora.customer"><img src="assets/portfolio/paybora.png" width="96" alt="PayBora"></a><br>
+  <h3>PayBora</h3>
+  <p>Fintech application supporting digital payments, wallet functionality, and customer transactions.</p>
+  <p><sub><a href="https://play.google.com/store/apps/details?id=com.paybora.customer">Google Play</a></sub></p>
+</td>
+<td width="33%" align="center" valign="middle">
+  <strong>27+ applications delivered</strong><br><br>
+  <sub>Experience spanning fintech, healthcare, logistics, media, education, food delivery, and consumer utilities.</sub><br><br>
+  <a href="https://ahsinirshad.com/#portfolio">View Full Portfolio →</a>
 </td>
 </tr>
 </table>
 
-## Mobile Applications
+<a id="technologies"></a>
+## 🧰 Technologies & Delivery Stack
 
-The complete public portfolio currently includes **27 mobile applications** covering AI, fintech, food delivery, logistics, education, media, healthcare, business operations, and consumer utilities.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,fastapi,laravel,vue,vite,tailwind,flutter,docker,postgres,mysql,mongodb,firebase,supabase,git,githubactions,jenkins&perline=8" alt="Core technology stack">
+</p>
 
-<table>
-<tr>
-<td width="33%" align="center" valign="top">
-  <a href="https://apps.apple.com/us/app/safemom-ingredient-checker/id6746147849"><img src="assets/portfolio/safe_mom.png" width="112" alt="SafeMom"></a><br>
-  <strong>SafeMom</strong><br>
-  <sub>pregnancy · health · AI</sub><br>
-  <sub><a href="https://apps.apple.com/us/app/safemom-ingredient-checker/id6746147849">App Store</a> · <a href="https://play.google.com/store/apps/details?id=net.magnificentservices.safe_mom">Google Play</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://play.google.com/store/apps/details?id=net.magnificentservies.amigo"><img src="assets/portfolio/amigo.png" width="112" alt="AMIGO"></a><br>
-  <strong>AMIGO</strong><br>
-  <sub>car · maintenance · booking</sub><br>
-  <sub><a href="https://play.google.com/store/apps/details?id=net.magnificentservies.amigo">Google Play</a> · <a href="https://support.amigoallmotorsireland.com/">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://thermowrap.com.au/"><img src="assets/portfolio/thermowrap.png" width="112" alt="Thermowrap"></a><br>
-  <strong>Thermowrap</strong><br>
-  <sub>GPS · tracking · workforce</sub><br>
-  <sub><a href="https://thermowrap.com.au/">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-</tr>
-<tr>
-<td width="33%" align="center" valign="top">
-  <a href="https://apps.apple.com/bh/app/mubasher-info/id6472443851"><img src="assets/portfolio/mubasher_info.png" width="112" alt="Mubasher.Info"></a><br>
-  <strong>Mubasher.Info</strong><br>
-  <sub>trading · stocks · finance</sub><br>
-  <sub><a href="https://apps.apple.com/bh/app/mubasher-info/id6472443851">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.gfm.tadawuly&amp;hl=en">Google Play</a> · <a href="https://english.mubasher.info/countries/sa">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://play.google.com/store/apps/details?id=com.paybora.customer"><img src="assets/portfolio/paybora.png" width="112" alt="PayBora"></a><br>
-  <strong>PayBora</strong><br>
-  <sub>fintech · payments · wallet</sub><br>
-  <sub><a href="https://play.google.com/store/apps/details?id=com.paybora.customer">Google Play</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://play.google.com/store/apps/details?id=com.mealsmash.kitchen"><img src="assets/portfolio/mealsmash_kitchen.png" width="112" alt="MealSmash - Kitchen"></a><br>
-  <strong>MealSmash - Kitchen</strong><br>
-  <sub>restaurant · kitchen · orders</sub><br>
-  <sub><a href="https://play.google.com/store/apps/details?id=com.mealsmash.kitchen">Google Play</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-</tr>
-<tr>
-<td width="33%" align="center" valign="top">
-  <a href="https://play.google.com/store/apps/details?id=com.mealsmash.customer"><img src="assets/portfolio/mealsmash.png" width="112" alt="MealSmash"></a><br>
-  <strong>MealSmash</strong><br>
-  <sub>delivery · food · groceries</sub><br>
-  <sub><a href="https://play.google.com/store/apps/details?id=com.mealsmash.customer">Google Play</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://play.google.com/store/apps/details?id=com.mealsmash.ordering"><img src="assets/portfolio/mealsmash_ordering.png" width="112" alt="MealSmash Ordering"></a><br>
-  <strong>MealSmash Ordering</strong><br>
-  <sub>restaurant · ordering · management</sub><br>
-  <sub><a href="https://play.google.com/store/apps/details?id=com.mealsmash.ordering">Google Play</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://chrome-stats.com/d/com.codedeals.chopadeuser"><img src="assets/portfolio/chopade_natural.png" width="112" alt="Chopade Natural"></a><br>
-  <strong>Chopade Natural</strong><br>
-  <sub>grocery · vegetables · fruits</sub><br>
-  <sub><a href="https://chrome-stats.com/d/com.codedeals.chopadeuser">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-</tr>
-<tr>
-<td width="33%" align="center" valign="top">
-  <a href="https://chrome-stats.com/d/com.paymanocustomer.app"><img src="assets/portfolio/paymano.png" width="112" alt="PayMano"></a><br>
-  <strong>PayMano</strong><br>
-  <sub>fintech · money transfer · remittance</sub><br>
-  <sub><a href="https://chrome-stats.com/d/com.paymanocustomer.app">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://apkpure.net/soul-tune/net.magnificentservices.soultune?utm_source=chatgpt.com"><img src="assets/portfolio/soultune.png" width="112" alt="Soul Tune"></a><br>
-  <strong>Soul Tune</strong><br>
-  <sub>music · video · multimedia</sub><br>
-  <sub><a href="https://apkpure.net/soul-tune/net.magnificentservices.soultune?utm_source=chatgpt.com">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://apkpure.net/the-cine-wizard/net.magnificentservices.thecinewizard"><img src="assets/portfolio/thecinewizard.png" width="112" alt="TheCineWizard"></a><br>
-  <strong>TheCineWizard</strong><br>
-  <sub>movies · TV shows · Hollywood</sub><br>
-  <sub><a href="https://apkpure.net/the-cine-wizard/net.magnificentservices.thecinewizard">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-</tr>
-<tr>
-<td width="33%" align="center" valign="top">
-  <a href="https://www.intercityxpress.com/en/download-our-app"><img src="assets/portfolio/intercity_express.png" width="112" alt="InterCityXpress"></a><br>
-  <strong>InterCityXpress</strong><br>
-  <sub>logistics · shipping · tracking</sub><br>
-  <sub><a href="https://www.intercityxpress.com/en/download-our-app">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://chrome-stats.com/d/net.magnificentservices.sccs"><img src="assets/portfolio/sccs.png" width="112" alt="SCCS"></a><br>
-  <strong>SCCS</strong><br>
-  <sub>education · courses · design</sub><br>
-  <sub><a href="https://chrome-stats.com/d/net.magnificentservices.sccs">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://apkpure.com/nakodal-tv/com.magnificentappdevelopers.nakodaltv/amp"><img src="assets/portfolio/nakodaltv.png" width="112" alt="Nakodal TV"></a><br>
-  <strong>Nakodal TV</strong><br>
-  <sub>TV · news · media</sub><br>
-  <sub><a href="https://apkpure.com/nakodal-tv/com.magnificentappdevelopers.nakodaltv/amp">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-</tr>
-<tr>
-<td width="33%" align="center" valign="top">
-  <a href="https://apkpure.com/mufti-tariq-masood-lectures/com.app.muftitariqmasood"><img src="assets/portfolio/mufti_tariq_masood.png" width="112" alt="Mufti Tariq Masood"></a><br>
-  <strong>Mufti Tariq Masood</strong><br>
-  <sub>Islamic · education · religion</sub><br>
-  <sub><a href="https://apkpure.com/mufti-tariq-masood-lectures/com.app.muftitariqmasood">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://ahsinirshad.com/#portfolio"><img src="assets/portfolio/budget_and_expense_tracker.png" width="112" alt="Budget Expense Tracker"></a><br>
-  <strong>Budget Expense Tracker</strong><br>
-  <sub>budget · expense · finance</sub><br>
-  <sub><a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://apkpure.com/querycity-a-student-s-search-engine/com.mad.querycity"><img src="assets/portfolio/query_city.png" width="112" alt="QueryCity - A Student&#x27;s Search Engine"></a><br>
-  <strong>QueryCity - A Student&#x27;s Search Engine</strong><br>
-  <sub>education · study · A-level</sub><br>
-  <sub><a href="https://apkpure.com/querycity-a-student-s-search-engine/com.mad.querycity">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-</tr>
-<tr>
-<td width="33%" align="center" valign="top">
-  <a href="https://apkpure.com/click-4-click/com.magnificentappdevelopers.click4click"><img src="assets/portfolio/click_4_click.png" width="112" alt="Click 4 Click"></a><br>
-  <strong>Click 4 Click</strong><br>
-  <sub>traffic · promotion · clicks</sub><br>
-  <sub><a href="https://apkpure.com/click-4-click/com.magnificentappdevelopers.click4click">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://apkpure.com/real-video-editor-pro/com.real.videoeditorpro"><img src="assets/portfolio/real_video_editor.png" width="112" alt="Real Video Editor"></a><br>
-  <strong>Real Video Editor</strong><br>
-  <sub>video · editor · editing</sub><br>
-  <sub><a href="https://apkpure.com/real-video-editor-pro/com.real.videoeditorpro">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://apkpure.com/ramadan-photo-frame-ali-brothers/com.ahsinpf"><img src="assets/portfolio/ramadan_photo_frame.png" width="112" alt="Ramadan Photo Frame"></a><br>
-  <strong>Ramadan Photo Frame</strong><br>
-  <sub>photo · editor · frames</sub><br>
-  <sub><a href="https://apkpure.com/ramadan-photo-frame-ali-brothers/com.ahsinpf">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-</tr>
-<tr>
-<td width="33%" align="center" valign="top">
-  <a href="https://apkpure.com/galaxy-knife/com.wishwhizz.galaxyknife"><img src="assets/portfolio/galaxy_knife.png" width="112" alt="Galaxy Knife"></a><br>
-  <strong>Galaxy Knife</strong><br>
-  <sub>game · knife · throwing</sub><br>
-  <sub><a href="https://apkpure.com/galaxy-knife/com.wishwhizz.galaxyknife">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://apkpure.com/ae-intros/com.video.entrosvideoapp"><img src="assets/portfolio/aeintros.png" width="112" alt="AE Intros"></a><br>
-  <strong>AE Intros</strong><br>
-  <sub>video · animation · logo</sub><br>
-  <sub><a href="https://apkpure.com/ae-intros/com.video.entrosvideoapp">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://apkpure.com/ca-vpn-free-vpn-proxy-server/com.magnificent.mycavpn"><img src="assets/portfolio/ca_vpn.png" width="112" alt="CA VPN"></a><br>
-  <strong>CA VPN</strong><br>
-  <sub>VPN · security · privacy</sub><br>
-  <sub><a href="https://apkpure.com/ca-vpn-free-vpn-proxy-server/com.magnificent.mycavpn">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-</tr>
-<tr>
-<td width="33%" align="center" valign="top">
-  <a href="https://apkpure.com/tajweed-colored-quran/com.wishwhizz.quran"><img src="assets/portfolio/tajweed_colored_quran.png" width="112" alt="Tajweed Colored Quran"></a><br>
-  <strong>Tajweed Colored Quran</strong><br>
-  <sub>Quran · Tajweed · Islamic</sub><br>
-  <sub><a href="https://apkpure.com/tajweed-colored-quran/com.wishwhizz.quran">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://apkpure.com/custom-rooms/com.mad.customrooms"><img src="assets/portfolio/custom_rooms.png" width="112" alt="Custom Rooms"></a><br>
-  <strong>Custom Rooms</strong><br>
-  <sub>gaming · multiplayer · community</sub><br>
-  <sub><a href="https://apkpure.com/custom-rooms/com.mad.customrooms">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://ahsinirshad.com/#portfolio"><img src="assets/portfolio/din_news_hd.png" width="112" alt="Din News HD"></a><br>
-  <strong>Din News HD</strong><br>
-  <sub>news · streaming · video</sub><br>
-  <sub><a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub>
-</td>
-</tr>
-</table>
+<p align="center">
+  <code>n8n</code> · <code>Coolify</code> · <code>Traefik</code> · <code>Harbor</code> · <code>Proxmox VE</code> · <code>SQLModel</code> · <code>Airtable</code> · <code>MinIO</code>
+</p>
 
-## Websites
-
-<table>
-<tr>
-<td width="50%" align="center" valign="top">
-  <a href="https://bellamasala.it/"><img src="assets/portfolio/bella_masala.png" width="150" alt="Bella Masala – Italian Restaurant"></a><br>
-  <h3>Bella Masala – Italian Restaurant</h3>
-  <p>Multilingual restaurant website with modern responsive design and AI-assisted menu management.</p>
-  <p><sub><a href="https://bellamasala.it/">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub></p>
-</td>
-<td width="50%" align="center" valign="top">
-  <a href="https://thecinewizard.com/"><img src="assets/portfolio/thecinewizard.png" width="150" alt="TheCineWizard"></a><br>
-  <h3>TheCineWizard</h3>
-  <p>Responsive entertainment platform for movie and TV reviews, industry news, and curated recommendations.</p>
-  <p><sub><a href="https://thecinewizard.com/">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub></p>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center" valign="top">
-  <a href="https://support.amigoallmotorsireland.com/"><img src="assets/portfolio/amigo.png" width="150" alt="Amigo Support"></a><br>
-  <h3>Amigo Support</h3>
-  <p>Customer-support portal with responsive interfaces, inquiry workflows, and manageable support content.</p>
-  <p><sub><a href="https://support.amigoallmotorsireland.com/">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub></p>
-</td>
-<td width="50%" align="center" valign="top">
-  <a href="https://modernnailbarkeller.com/"><img src="assets/portfolio/modern_nail_barkeller.png" width="150" alt="Modern Nail Bar"></a><br>
-  <h3>Modern Nail Bar</h3>
-  <p>Premium salon website with services, pricing, galleries, reviews, and appointment booking.</p>
-  <p><sub><a href="https://modernnailbarkeller.com/">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub></p>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center" valign="top">
-  <a href="https://eyelashjacksonville.com/"><img src="assets/portfolio/eyelash_jacksonville.png" width="150" alt="Eyelash Jacksonville"></a><br>
-  <h3>Eyelash Jacksonville</h3>
-  <p>Mobile-first salon website with structured services, appointment forms, and search-focused presentation.</p>
-  <p><sub><a href="https://eyelashjacksonville.com/">Open Project</a> · <a href="https://ahsinirshad.com/#portfolio">Portfolio</a></sub></p>
-</td>
-<td width="50%"></td>
-</tr>
-</table>
-
-## Engineering Projects
-
-### Business Platforms
-
-- **SellIQ POS** — multi-client point-of-sale platform built with Vue and FastAPI, using runtime configuration per client and containerized deployments.
-- **SalonMember** — members-only salon SaaS with booking, Stripe subscriptions, and service-quota logic.
-- **CRM and workflow systems** — internal tools supporting recurring tasks, operational workflows, and business reporting.
-
-### Public Engineering Work
-
-- [**MySQL Backups to MinIO**](https://github.com/ahsinirshad22/automated-mysql-backups-to-minio) — FastAPI service for authenticated, scheduled MySQL backups to MinIO or S3-compatible storage.
-- [**NailSalon.Club Landing Page**](https://github.com/ahsinirshad22/nailsalon_vue_landing_site) — responsive Vue 3 and Tailwind CSS landing page with multilingual support and contact workflows.
-
-> Selected client and production work is represented through public portfolio links. Source repositories may remain private to protect client code and operational details.
-
-## Core Technologies
-
-`Python` · `FastAPI` · `SQLModel` · `Laravel` · `Vue 3` · `Vite` · `Tailwind CSS` · `Flutter` · `Docker` · `Coolify` · `Traefik` · `Harbor` · `Proxmox VE` · `PostgreSQL` · `MySQL` · `Firebase` · `Supabase`
-
-## How I Work
+### Delivery Approach
 
 - Translate business requirements into clear technical architecture
-- Build secure, maintainable APIs and responsive user experiences
-- Deliver mobile, web, database, and infrastructure work as one system
-- Automate repetitive engineering and operational workflows
+- Build secure APIs, responsive interfaces, and practical automation
+- Connect web, mobile, database, and infrastructure work as one system
+- Automate repetitive engineering and operational processes
 - Own deployment, verification, and production reliability
 
-## Connect
+---
 
-- **Portfolio:** [ahsinirshad.com](https://ahsinirshad.com/)
-- **LinkedIn:** [linkedin.com/in/ahsin-irshad](https://www.linkedin.com/in/ahsin-irshad/)
-- **Email:** [ahsinirshad22@gmail.com](mailto:ahsinirshad22@gmail.com)
+<a id="connect"></a>
+<h2 align="center">Let's Build Something Useful</h2>
 
-If you are building a business platform, mobile application, or automation-heavy workflow, send me the requirements, target platforms, existing stack, and required integrations.
+<p align="center">
+  If you are building a business platform, mobile application, or automation-heavy workflow,<br>
+  send me the requirements, target platforms, existing stack, and required integrations.
+</p>
+
+<p align="center">
+  <a href="https://ahsinirshad.com/"><strong>Portfolio</strong></a> ·
+  <a href="https://www.linkedin.com/in/ahsin-irshad/"><strong>LinkedIn</strong></a> ·
+  <a href="mailto:ahsinirshad22@gmail.com"><strong>Email</strong></a>
+</p>
+
+<p align="center"><sub>Designed around production work, measurable outcomes, and end-to-end delivery.</sub></p>
