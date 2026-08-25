@@ -2,9 +2,10 @@
   <img src="assets/profile/header.png" width="100%" alt="Ahsin Irshad — Senior Software Engineer">
 </p>
 
+<h3 align="center">Senior Software Engineer · Solutions Architect · Technical Lead</h3>
+
 <p align="center">
-  I build production software across APIs, business platforms, mobile applications,<br>
-  automation workflows, databases, and self-hosted infrastructure.
+  Enterprise CRM · FinTech · Cross-Platform Mobile · AI Automation · DevOps
 </p>
 
 <p align="center">
@@ -14,179 +15,153 @@
 </p>
 
 <p align="center">
-  <a href="#automation">Automation</a> •
-  <a href="#web-development">Web Development</a> •
-  <a href="#mobile-apps">Mobile Apps</a> •
-  <a href="#technologies">Technologies</a> •
+  <a href="#about">About</a> •
+  <a href="#expertise">Expertise</a> •
+  <a href="#featured-work">Featured Work</a> •
+  <a href="#stack">Stack</a> •
+  <a href="#experience">Experience</a> •
   <a href="#connect">Connect</a>
 </p>
 
 ---
 
-### What I Build
+<a id="about"></a>
+## About
 
-- **Business platforms and SaaS** — APIs, operational workflows, dashboards, subscriptions, and multi-client systems
-- **AI and workflow automation** — n8n pipelines, content operations, integrations, backups, and deployment automation
-- **Web and mobile products** — Vue, FastAPI, Laravel, and Flutter applications backed by production infrastructure
-- **End-to-end delivery** — Docker, CI/CD, private registries, reverse proxies, and self-hosted services
+I am a **Senior Software Engineer and cross-platform solutions architect** with **8+ years of professional experience** across enterprise CRM, FinTech, mobile, web, backend, infrastructure, and AI-assisted automation.
 
-<a id="automation"></a>
-## ⚙️ Recent Automation Projects
+I currently lead architecture and development for enterprise CRM solutions at **HEICO Befestigungstechnik GmbH**, connecting operational workflows across Pakistan and Germany. My work spans discovery, system design, hands-on implementation, deployment, mentoring, and post-launch reliability.
+
+I care about software that remains secure, maintainable, and useful after the first release—not just prototypes that happen to work.
+
+<table>
+<tr>
+<td width="25%" align="center"><strong>Current role</strong><br>Senior Software Engineer<br>HEICO</td>
+<td width="25%" align="center"><strong>Experience</strong><br>8+ years<br>Production delivery</td>
+<td width="25%" align="center"><strong>Verified impact</strong><br>100K+ downloads<br>Mubasher.Info</td>
+<td width="25%" align="center"><strong>Core focus</strong><br>Architecture<br>Mobile · AI · DevOps</td>
+</tr>
+</table>
+
+<a id="expertise"></a>
+## What I Do
 
 <table>
 <tr>
 <td width="50%" valign="top">
-  <h3>Article Generation & Publishing</h3>
-  <p>AI-assisted workflow that turns approved topics into structured articles, applies formatting and content checks, and publishes them to configured channels with minimal manual handling.</p>
-  <p><code>AI Content</code> <code>n8n</code> <code>Publishing APIs</code></p>
+<h3>🏗️ Enterprise Architecture</h3>
+<p>Design scalable CRM and operational platforms with clean APIs, reliable data models, secure integrations, and maintainable boundaries.</p>
+<p><code>FastAPI</code> <code>Python</code> <code>Vue.js</code> <code>PostgreSQL</code></p>
 </td>
 <td width="50%" valign="top">
-  <h3>MySQL Backups to MinIO</h3>
-  <p>Fully self-hosted backup pipeline that schedules MySQL dumps and stores them in MinIO or other S3-compatible storage, keeping infrastructure and data under the operator's control.</p>
-  <p><code>Python</code> <code>FastAPI</code> <code>MySQL</code> <code>MinIO</code></p>
+<h3>📱 Mobile & FinTech</h3>
+<p>Build cross-platform and native mobile products involving critical data, payments, maps, sockets, notifications, and platform integrations.</p>
+<p><code>Flutter</code> <code>Dart</code> <code>Android</code> <code>Platform Channels</code></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-  <h3>Git-Push Deployment Automation</h3>
-  <p>CI/CD workflow triggered by Git pushes to build versioned containers, publish application images, and deploy projects consistently across environments.</p>
-  <p><code>Git</code> <code>Docker</code> <code>CI/CD</code> <code>Harbor</code> <code>Coolify</code></p>
+<h3>🤖 AI & Workflow Automation</h3>
+<p>Turn repetitive business processes into practical workflows using AI models, custom agents, MCP servers, n8n, webhooks, and API orchestration.</p>
+<p><code>AI Agents</code> <code>MCP</code> <code>n8n</code> <code>Webhooks</code></p>
 </td>
 <td width="50%" valign="top">
-  <h3>YumMeal Recipe Extraction</h3>
-  <p>n8n workflow that extracts recipes from source pages, normalizes ingredients and instructions, and prepares structured content for the YumMeal platform.</p>
-  <p><code>n8n</code> <code>Data Extraction</code> <code>Content Automation</code></p>
+<h3>🚀 Delivery & Infrastructure</h3>
+<p>Own the route from requirement to production through Dockerized services, CI/CD, reverse proxies, VPS infrastructure, monitoring, and release automation.</p>
+<p><code>Docker</code> <code>Jenkins</code> <code>CI/CD</code> <code>Portainer</code></p>
 </td>
 </tr>
 </table>
 
-<a id="web-development"></a>
-## 🌐 Recent Web-Based Developments
+<a id="featured-work"></a>
+## Featured Work
 
 <table>
 <tr>
 <td width="50%" valign="top">
-  <h3><a href="https://www.heico-group.com/en/">HEICO CRM</a></h3>
-  <p><strong>Enterprise CRM & Workflow Platform</strong></p>
-  <p>Internal CRM and recurring-work platform supporting customer information, task coordination, repeatable workflows, and day-to-day operational visibility.</p>
+<h3><a href="https://www.heico-group.com/en/">HEICO Enterprise CRM</a></h3>
+<p><strong>Enterprise architecture · CRM · Operations</strong></p>
+<p>Architecture and development of a scalable CRM connecting operational workflows across Pakistan and Germany.</p>
+<p><code>FastAPI</code> <code>Python</code> <code>Vue.js</code> <code>Docker</code></p>
 </td>
 <td width="50%" valign="top">
-  <h3><a href="https://thecinewizard.com/">TheCineWizard</a></h3>
-  <p><strong>Entertainment Content Platform</strong></p>
-  <p>Responsive platform for movie and television reviews, industry news, curated recommendations, and discovery-focused editorial content.</p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-  <h3><a href="https://cineflicksnews.com/">Cineflicks News</a></h3>
-  <p><strong>Entertainment News Platform</strong></p>
-  <p>Content-focused website for publishing and browsing movie and television stories, reviews, announcements, and industry updates.</p>
-</td>
-<td width="50%" valign="top">
-  <h3><a href="https://support.amigoallmotorsireland.com/">Amigo Support</a></h3>
-  <p><strong>Customer Support Portal</strong></p>
-  <p>Responsive support experience for a vehicle-service platform, combining structured inquiry workflows with manageable help content.</p>
+<h3>Mubasher.Info</h3>
+<p><strong>FinTech · Social trading · Market intelligence</strong></p>
+<p>Flutter engineering, native integrations, APIs, performance, security, mentoring, and hiring support for a product that surpassed 100,000 Google Play downloads.</p>
+<p><a href="https://apps.apple.com/bh/app/mubasher-info/id6472443851">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.gfm.tadawuly&hl=en">Google Play</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-  <h3><a href="https://nailsalon.club/">NailSalon.club</a></h3>
-  <p><strong>Membership & Booking SaaS</strong></p>
-  <p>Members-only salon platform combining appointment booking, Stripe subscriptions, membership management, and service-quota enforcement.</p>
+<h3>SafeMom</h3>
+<p><strong>AI-assisted healthcare utility</strong></p>
+<p>Cross-platform ingredient analysis using photo-based extraction to help evaluate cosmetics, food, and medicine during pregnancy.</p>
+<p><a href="https://apps.apple.com/us/app/safemom-ingredient-checker/id6746147849">App Store</a> · <a href="https://play.google.com/store/apps/details?id=net.magnificentservices.safe_mom">Google Play</a></p>
 </td>
 <td width="50%" valign="top">
-  <h3><a href="https://modernnailbarkeller.com/">Modern Nail Bar Keller</a></h3>
-  <p><strong>Salon Website & Booking Experience</strong></p>
-  <p>Responsive salon website presenting services, pricing, galleries, customer reviews, and a streamlined path to online booking.</p>
+<h3>AMIGO</h3>
+<p><strong>Vehicle services · Booking · Live operations</strong></p>
+<p>Vehicle-care platform covering roadside assistance, maintenance, spare parts, inspections, real-time status, and service notifications.</p>
+<p><a href="https://play.google.com/store/apps/details?id=net.magnificentservies.amigo">Google Play</a> · <a href="https://support.amigoallmotorsireland.com/">Support portal</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-  <h3><a href="https://eyelashjacksonville.com/">Eyelash Jacksonville</a></h3>
-  <p><strong>Local Service Website</strong></p>
-  <p>Mobile-first salon website with structured services, customer-friendly navigation, appointment inquiries, and a polished local-business presence.</p>
+<h3><a href="https://www.intercityxpress.com/en/download-our-app">InterCityXpress</a></h3>
+<p><strong>Logistics · Flutter · Laravel</strong></p>
+<p>Courier delivery management with shipment workflows, tracking, customer support, and multi-shipment visibility, delivered with a cross-functional team.</p>
 </td>
 <td width="50%" valign="top">
-  <h3>From Requirement to Production</h3>
-  <p><strong>Full-Stack Delivery</strong></p>
-  <p>Architecture, APIs, interfaces, databases, integrations, deployment, and production verification delivered as one connected system.</p>
+<h3><a href="https://bellamasala.it/">Bella Masala</a></h3>
+<p><strong>AI automation · n8n · Custom MCP</strong></p>
+<p>Multilingual restaurant platform with natural-language menu operations powered by an AI agent, workflow automation, and a custom MCP server.</p>
 </td>
 </tr>
 </table>
-
-<a id="mobile-apps"></a>
-## 📱 Recent Mobile Application Projects
-
-<table>
-<tr>
-<td width="33%" align="center" valign="top">
-  <a href="https://apps.apple.com/bh/app/mubasher-info/id6472443851"><img src="assets/portfolio/mubasher_info.png" width="96" alt="Mubasher.Info"></a><br>
-  <h3>Mubasher.Info</h3>
-  <p>Social trading and market intelligence with stock insights, analysis, alerts, and investor communities.</p>
-  <p><sub><a href="https://apps.apple.com/bh/app/mubasher-info/id6472443851">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.gfm.tadawuly&amp;hl=en">Google Play</a></sub></p>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://apps.apple.com/us/app/safemom-ingredient-checker/id6746147849"><img src="assets/portfolio/safe_mom.png" width="96" alt="SafeMom"></a><br>
-  <h3>SafeMom</h3>
-  <p>AI-powered ingredient analysis for evaluating cosmetics, food, and medicine during pregnancy.</p>
-  <p><sub><a href="https://apps.apple.com/us/app/safemom-ingredient-checker/id6746147849">App Store</a> · <a href="https://play.google.com/store/apps/details?id=net.magnificentservices.safe_mom">Google Play</a></sub></p>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://play.google.com/store/apps/details?id=net.magnificentservies.amigo"><img src="assets/portfolio/amigo.png" width="96" alt="AMIGO"></a><br>
-  <h3>AMIGO</h3>
-  <p>Vehicle-care and service-booking application covering roadside assistance, maintenance, and inspections.</p>
-  <p><sub><a href="https://play.google.com/store/apps/details?id=net.magnificentservies.amigo">Google Play</a></sub></p>
-</td>
-</tr>
-<tr>
-<td width="33%" align="center" valign="top">
-  <a href="https://thermowrap.com.au/"><img src="assets/portfolio/thermowrap.png" width="96" alt="Thermowrap"></a><br>
-  <h3>Thermowrap</h3>
-  <p>Field-workforce application supporting GPS tracking, job coordination, and operational visibility.</p>
-  <p><sub><a href="https://thermowrap.com.au/">Project Website</a></sub></p>
-</td>
-<td width="33%" align="center" valign="top">
-  <a href="https://play.google.com/store/apps/details?id=com.paybora.customer"><img src="assets/portfolio/paybora.png" width="96" alt="PayBora"></a><br>
-  <h3>PayBora</h3>
-  <p>Fintech application supporting digital payments, wallet functionality, and customer transactions.</p>
-  <p><sub><a href="https://play.google.com/store/apps/details?id=com.paybora.customer">Google Play</a></sub></p>
-</td>
-<td width="33%" align="center" valign="middle">
-  <strong>27+ applications delivered</strong><br><br>
-  <sub>Experience spanning fintech, healthcare, logistics, media, education, food delivery, and consumer utilities.</sub><br><br>
-  <a href="https://ahsinirshad.com/#portfolio">View Full Portfolio →</a>
-</td>
-</tr>
-</table>
-
-<a id="technologies"></a>
-## 🧰 Technologies & Delivery Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,fastapi,laravel,vue,vite,tailwind,flutter,docker,postgres,mysql,mongodb,firebase,supabase,git,githubactions,jenkins&perline=8" alt="Core technology stack">
+  <a href="https://ahsinirshad.com/#portfolio"><strong>Explore the full portfolio →</strong></a>
+</p>
+
+<a id="stack"></a>
+## Core Technology Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,fastapi,vue,flutter,dart,laravel,php,docker,postgres,mysql,jenkins,git,githubactions&perline=7" alt="Python, FastAPI, Vue.js, Flutter, Dart, Laravel, PHP, Docker, PostgreSQL, MySQL, Jenkins, Git, and GitHub Actions">
 </p>
 
 <p align="center">
-  <code>n8n</code> · <code>Coolify</code> · <code>Traefik</code> · <code>Harbor</code> · <code>Proxmox VE</code> · <code>SQLModel</code> · <code>Airtable</code> · <code>MinIO</code>
+  <img src="https://img.shields.io/badge/n8n-Workflow_Automation-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n">
+  <img src="https://img.shields.io/badge/AI_Agents-Practical_Automation-7C3AED?style=flat-square" alt="AI Agents">
+  <img src="https://img.shields.io/badge/MCP-Custom_Servers-0F766E?style=flat-square" alt="Model Context Protocol">
+  <img src="https://img.shields.io/badge/REST-API_Architecture-2563EB?style=flat-square" alt="REST APIs">
+  <img src="https://img.shields.io/badge/CI%2FCD-Production_Delivery-F97316?style=flat-square" alt="CI/CD">
 </p>
 
-### Delivery Approach
+<a id="experience"></a>
+## Experience
 
-- Translate business requirements into clear technical architecture
-- Build secure APIs, responsive interfaces, and practical automation
-- Connect web, mobile, database, and infrastructure work as one system
-- Automate repetitive engineering and operational processes
-- Own deployment, verification, and production reliability
+| Period | Role | Focus |
+|---|---|---|
+| **2025–Present** | Senior Software Engineer — **HEICO Befestigungstechnik GmbH** | Enterprise CRM architecture, FastAPI/Python, Vue.js, databases, Docker, and deployment infrastructure |
+| **2024–2025** | Senior Mobile App Developer · Team Lead — **Global Financial Media (Mubasher group)** | FinTech mobile engineering, Flutter, platform integrations, APIs, security, mentoring, and hiring |
+| **2022–2023** | Software Team Lead — **INTERPAY** | Flutter/Laravel leadership across payment, POS, and courier-management products |
+| **2019–Present** | Full-Stack Developer — **Self-employed** | Mobile, web, backend, AI/n8n automation, infrastructure, CI/CD, and client delivery |
+| **2018–2019** | Android Developer — **WapExp** | Native Android, REST integrations, real-time services, payments, and performance |
 
----
+### How I Work
+
+- Translate business requirements into clear, scalable technical architecture.
+- Stay hands-on across APIs, interfaces, databases, mobile clients, automation, and infrastructure.
+- Use AI where it creates measurable operational value—not as decoration.
+- Build for security, maintainability, observability, and long-term ownership.
+- Mentor engineers, clarify decisions, and communicate progress with stakeholders.
+- Own deployment, production verification, support, and continuous improvement.
 
 <a id="connect"></a>
-<h2 align="center">Let's Build Something Useful</h2>
+## Let's Build Something Useful
 
-<p align="center">
-  If you are building a business platform, mobile application, or automation-heavy workflow,<br>
-  send me the requirements, target platforms, existing stack, and required integrations.
-</p>
+If you are working on an enterprise platform, FinTech product, cross-platform application, or automation-heavy workflow, I am always interested in thoughtful engineering conversations.
 
 <p align="center">
   <a href="https://ahsinirshad.com/"><strong>Portfolio</strong></a> ·
@@ -194,4 +169,6 @@
   <a href="mailto:ahsinirshad22@gmail.com"><strong>Email</strong></a>
 </p>
 
-<p align="center"><sub>Designed around production work, measurable outcomes, and end-to-end delivery.</sub></p>
+<p align="center">
+  <sub>Architecture-first engineering · Practical automation · Reliable production delivery</sub>
+</p>
